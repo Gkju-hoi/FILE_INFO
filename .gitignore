@@ -1,0 +1,38 @@
+# Исключаем скомпилированные файлы
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.sln
+*.vcxproj*
+*.filters
+*.user
+*.aps
+*.ncb
+*.suo
+*.tlog
+*.log
+*.idb
+*.pch
+*.res
+*.sbr
+*.ipch
+*.exp
+*.lib
+*.dll
+
+# Исключаем папки сборки
+Debug/
+Release/
+x64/
+build/
+bin/
+obj/
+
+# Исключаем системные файлы
+Thumbs.db
+.DS_Store
+
+# Исключаем файлы IDE
+.vs/
+.idea/
