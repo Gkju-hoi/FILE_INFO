@@ -1,0 +1,247 @@
+<mxfile host="65bd71144e">
+    <diagram id="zlEDQTWGQIakeHflt57V" name="Страница-1">
+        <mxGraphModel dx="934" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="17" value="Начало программы" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="19">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="440" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="Получить пути папок&#xa;(аргументы или ввод)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="302.5" y="100" width="280" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Папки существуют?&#xa;и являются директориями?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="297.5" y="180" width="290" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Вывести ошибку&#xa;и завершить программу" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="320" width="147.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Рекурсивно сканировать&#xa;всю папку 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="320" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Рекурсивно сканировать&#xa;всю папку 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="320" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Создать карту файлов&#xa;с относительными путями" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="400" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Создать карту файлов&#xa;с относительными путями" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="430" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Для каждого файла в папке 1:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="377.5" y="450" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Файл есть в папке 2?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="375" y="540" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Добавить в&#xa;&quot;Только в папке 1&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="540" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Типы файлов совпадают?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="375" y="620" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Добавить в&#xa;&quot;Разные типы&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="630" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Это обычный файл?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="375" y="700" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Размер и время&#xa;совпадают?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="375" y="780" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Добавить в&#xa;&quot;Различающиеся&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="800" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Добавить в&#xa;&quot;Идентичные&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="830" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Добавить в&#xa;&quot;Идентичные папки&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="710" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Для каждого файла в папке 2:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="372.5" y="870" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="36">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="440" y="990" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="Файла нет в папке 1?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="930" width="137.5" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Добавить в&#xa;&quot;Только в папке 2&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="930" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Вывести подробный отчет&#xa;о всех различиях" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="376.25" y="1060" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Конец программы" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="401.25" y="1120" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="17" target="18">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="440" y="80" as="sourcePoint"/>
+                        <mxPoint x="490" y="30" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="Нет" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="19" target="20">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="375" y="210" as="sourcePoint"/>
+                        <mxPoint x="325" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="Да" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="19" target="21">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="440" y="210" as="sourcePoint"/>
+                        <mxPoint x="440" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="21" target="23">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="260" y="380" as="sourcePoint"/>
+                        <mxPoint x="260" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="22" target="24">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="620" y="380" as="sourcePoint"/>
+                        <mxPoint x="620" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="23" target="25">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="260" y="440" as="sourcePoint"/>
+                        <mxPoint x="440" y="460" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="25" target="26">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="440" y="520" as="sourcePoint"/>
+                        <mxPoint x="440" y="540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="Нет" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="26" target="27">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="375" y="570" as="sourcePoint"/>
+                        <mxPoint x="320" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="Да" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="26" target="28">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="505" y="570" as="sourcePoint"/>
+                        <mxPoint x="505" y="590" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="Нет" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="28" target="29">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="375" y="650" as="sourcePoint"/>
+                        <mxPoint x="320" y="640" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="Да" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="28" target="30">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="505" y="650" as="sourcePoint"/>
+                        <mxPoint x="505" y="670" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="Нет" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="30" target="34">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="375" y="730" as="sourcePoint"/>
+                        <mxPoint x="560" y="700" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="Да" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="30" target="31">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="505" y="730" as="sourcePoint"/>
+                        <mxPoint x="505" y="750" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="Нет" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="31" target="32">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="375" y="810" as="sourcePoint"/>
+                        <mxPoint x="320" y="800" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="Да" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="31" target="33">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="505" y="810" as="sourcePoint"/>
+                        <mxPoint x="620" y="800" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="Конец цикла" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="27" target="35">
+                    <mxGeometry x="-0.2412" width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="260" y="580" as="sourcePoint"/>
+                        <mxPoint x="440" y="840" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="Конец цикла" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="29" target="35">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="260" y="660" as="sourcePoint"/>
+                        <mxPoint x="440" y="840" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="Конец цикла" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="32" target="35">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="260" y="820" as="sourcePoint"/>
+                        <mxPoint x="440" y="840" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" value="Конец цикла" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="33" target="35">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="620" y="820" as="sourcePoint"/>
+                        <mxPoint x="440" y="840" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="61" value="Конец цикла" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="34" target="35">
+                    <mxGeometry x="-0.3126" y="-2" width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="620" y="740" as="sourcePoint"/>
+                        <mxPoint x="440" y="840" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="62" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="35" target="36">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="440" y="900" as="sourcePoint"/>
+                        <mxPoint x="440" y="920" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="Да" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="36" target="37">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="505" y="950" as="sourcePoint"/>
+                        <mxPoint x="620" y="940" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="64" value="Конец цикла" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="37" target="38">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="620" y="960" as="sourcePoint"/>
+                        <mxPoint x="440" y="980" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="65" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="38" target="39">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="440" y="1040" as="sourcePoint"/>
+                        <mxPoint x="440" y="1060" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="Нет" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="36" target="38">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="375" y="950" as="sourcePoint"/>
+                        <mxPoint x="375" y="980" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="71" value="Да" style="endArrow=classic;html=1;rounded=0;entryX=0.407;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.712;exitY=0.84;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="19" target="22">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="721.5" y="180" as="sourcePoint"/>
+                        <mxPoint x="587.5" y="275" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
